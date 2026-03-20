@@ -72,7 +72,7 @@ switch ($choice) {
 
             "C" {
                 Write-Host "Fetching library from GitHub..." -ForegroundColor Cyan
-                $repoApi = "https://api.github.com/repos/axelsson09/axelsson09/contents/Some%20Fun%20Scripts/wallpaperManager/library"
+                $repoApi = "https://api.github.com/repos/axelsson09/TE25/contents/Wallpaper/Library"
                 
                 try {
                     # Force result into an array and provide User-Agent for GitHub API
